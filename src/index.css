@@ -8,3 +8,18 @@ html, body{
   margin: 0;
   text-align: center;
 }
+
+button{
+  width: 100px;
+  padding: 10px;
+  font-size: 1.3rem;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #333;
+}
+a{
+  color: rgb(72, 72, 252);
+  text-decoration: none;
+  display: block;
+  margin: 40px;
+}
