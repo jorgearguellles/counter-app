@@ -23,7 +23,7 @@ const CounterApp = ({value}) => {
       <button onClick={add}>+1</button>
       <button onClick={reset}>Reset</button>
       <button onClick={subtract}>-1</button>
-      <a href="https://reactjs.org/docs/events.html" target="_blank" rel="noreferrer"> React Synthetic Events</a>
+      <a href="https://reactjs.org/docs/events.html" target="_blank" rel="northerner"> React Synthetic Events</a>
     </>
   )
 };
