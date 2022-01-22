@@ -13,7 +13,7 @@ describe("05-functions: getUser()",()=>{
 });
 
 describe("05-functions: getUserActive()",()=>{
-  test("1. Should return a Object and username: Jorge ",()=>{
+  test("1. Should return a Object and attribute username: Jorge ",()=>{
     const name = "Jorge";
     const objTest = {
       uid: 'ABC567',
