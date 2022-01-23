@@ -7,12 +7,12 @@ const getUser = () => ({
 const user = getUser();
 // console.log(user);
 
-const getUserActive = ( name ) =>({
+const getUserActive = ( name = "Carlos" ) =>({
     uid: 'ABC567',
     username: name
 })
 
-const userActive = getUserActive('Jorge');
+const userActive = getUserActive();
 // console.log( userActive );
 
 export {getUser, getUserActive};

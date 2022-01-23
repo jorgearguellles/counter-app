@@ -9,20 +9,27 @@ describe("05-functions: getUser()",()=>{
     const user = getUser();
     expect(user).toEqual(objTest);
   });
-
 });
 
 describe("05-functions: getUserActive()",()=>{
-  test("1. Should return a Object and attribute username: Jorge ",()=>{
-    const name = "Jorge";
+  test("1. Without args should return a Object and attribute username: Carlos ",()=>{
     const objTest = {
       uid: 'ABC567',
-      username: `${name}`,
+      username: 'Carlos',
     }
-    const userActive = getUserActive(name);
+    const userActive = getUserActive();
+    // console.log(userActive)
     expect(userActive).toEqual(objTest);
   });
 
-
-
+  test("2. Should return a Object and attribute username: Jorge ",()=>{
+    const name = "Jorge";
+    const objTest = {
+      uid: 'ABC567',
+      username: name,
+    }    
+    const userActive = getUserActive(name);
+    // console.log(userActive)
+    expect(userActive).toEqual(objTest);
+  });
 });
