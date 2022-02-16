@@ -1,22 +1,21 @@
 import React from "react";
 import PropTypes  from "prop-types";
 
-const App = ({sayHi, subtitle}) => {
+const App = ({title, subtitle}) => {
 
   return (
     <>
-      <h1>{ sayHi }</h1>
+      <h1>{title}</h1>
       <p>{subtitle}</p>
     </>
   )
 };
 
 App.propTypes = {
-  sayHi: PropTypes.string.isRequired
+  title: PropTypes.string.isRequired
 };
 
 App.defaultProps = {
-  sayHi: "Title here",
   subtitle: 'Subtitle here'
 }
 

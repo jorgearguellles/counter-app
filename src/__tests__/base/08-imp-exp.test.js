@@ -20,7 +20,6 @@ describe("08-imp-exp: hetHeroByID()", ()=>{
     const hero = getHeroById(id);
     expect(hero).toBeUndefined();
   });
-
 })
 
 describe("08-imp-exp: getHeroesByOwner()",()=>{

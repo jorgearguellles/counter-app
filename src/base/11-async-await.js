@@ -1,9 +1,5 @@
 
-
-// const getImagenPromesa = () => new Promise( resolve => resolve('https://ajskdhaskjdhajs.com') )
-// getImagenPromesa().then( console.log );
-
-const getImagen = async() => {
+const getImage = async() => {
 
     try {
 
@@ -18,15 +14,11 @@ const getImagen = async() => {
         document.body.append( img );
 
     } catch (error) {
-        // manejo del error
         console.error(error)
     }
-    
-    
-    
 }
 
- getImagen();
+getImage();
 
 
 
